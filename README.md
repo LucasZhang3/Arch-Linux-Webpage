@@ -12,15 +12,6 @@
   [![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
 </div>
 
-##  Features
-
--  **Modern Design** - Clean, minimalist interface with glassmorphism effects
--  **Fully Responsive** - Perfect experience across all devices
--  **Lightning Fast** - Built with Vite for optimal performance
--  **Smooth Animations** - Powered by Framer Motion
--  **Security Focused** - Emphasizes download verification and security
--  **User Experience** - Intuitive navigation and clear information hierarchy
-
 ##  Quick Start
 
 ### Prerequisites
