@@ -1,0 +1,123 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+/* Arch Linux Design System */
+
+@layer base {
+  :root {
+    --background: 220 27% 8%;
+    --foreground: 220 9% 95%;
+
+    --card: 220 27% 10%;
+    --card-foreground: 220 9% 95%;
+
+    --popover: 220 27% 8%;
+    --popover-foreground: 220 9% 95%;
+
+    --primary: 199 89% 48%;
+    --primary-foreground: 220 27% 8%;
+
+    --secondary: 220 27% 12%;
+    --secondary-foreground: 220 9% 95%;
+
+    --muted: 220 27% 15%;
+    --muted-foreground: 220 9% 60%;
+
+    --accent: 271 81% 56%;
+    --accent-foreground: 220 9% 95%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 220 9% 95%;
+
+    --border: 220 27% 18%;
+    --input: 220 27% 18%;
+    --ring: 199 89% 48%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 220 27% 8%;
+    --sidebar-foreground: 220 9% 95%;
+    --sidebar-primary: 199 89% 48%;
+    --sidebar-primary-foreground: 220 27% 8%;
+    --sidebar-accent: 220 27% 12%;
+    --sidebar-accent-foreground: 220 9% 95%;
+    --sidebar-border: 220 27% 18%;
+    --sidebar-ring: 199 89% 48%;
+
+    /* Arch Linux colors */
+    --arch-blue: 199 89% 48%;
+    --arch-cyan: 180 100% 50%;
+    --arch-purple: 271 81% 56%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    background: radial-gradient(ellipse at center, hsl(220 27% 12%) 0%, hsl(220 27% 8%) 100%);
+    min-height: 100vh;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-xl shadow-2xl;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent;
+  }
+
+  .arch-blue {
+    color: hsl(var(--arch-blue));
+  }
+}
+
+@layer utilities {
+  .animation-delay-75 {
+    animation-delay: 75ms;
+  }
+  .animation-delay-150 {
+    animation-delay: 150ms;
+  }
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+}
+
+/* Loading Screen */
+.loading-screen {
+  background: radial-gradient(ellipse at center, hsl(220 27% 12%) 0%, hsl(220 27% 8%) 100%);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(220 27% 8%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #1793d1, #8b5cf6);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #00d4aa, #ec4899);
+}
