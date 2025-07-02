@@ -93,7 +93,7 @@ The project uses a custom design system based on Arch Linux branding:
 - **Learn More** - Additional information about Arch Linux
 - **404** - Custom not found page
 
-## 🛠️ Development
+##  Development
 
 ### Available Scripts
 
