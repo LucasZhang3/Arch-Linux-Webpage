@@ -2,7 +2,7 @@
 # Arch Linux Website
 
 <div align="center">
-  <img src="public/lovable-uploads/653b132f-cacf-48a4-839f-be91e179f1f8.png" alt="Arch Linux Logo" width="200" height="200">
+  <img src="public/uploads/653b132f-cacf-48a4-839f-be91e179f1f8.png" alt="Arch Linux Logo" width="200" height="200">
   
   **A modern, responsive website showcasing Arch Linux**
   
