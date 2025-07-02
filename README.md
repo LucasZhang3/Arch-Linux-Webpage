@@ -23,7 +23,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/LucasZhang3/Arch-Linux-Webpage.git
    cd arch-linux-website
    ```
 
