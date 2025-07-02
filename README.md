@@ -79,7 +79,7 @@ The project uses a custom design system based on Arch Linux branding:
 
 ##  Pages
 
-- **Home** - Landing page with animated logo and call-to-action
+- **Home** - Landing page with animated logo
 - **Download** - Comprehensive download page with security information
 - **Learn More** - Additional information about Arch Linux
 - **404** - Custom not found page
@@ -93,23 +93,21 @@ The project uses a custom design system based on Arch Linux branding:
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
-### Code Style
-
-This project follows:
-- ESLint configuration for code quality
-- TypeScript strict mode
-- Prettier for code formatting
-- Conventional commit messages
-
 ##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+2. Create your feature branch (`git checkout -b feature/Feature`)
+3. Commit your changes (`git commit -m 'Add some Feature'`)
+4. Push to the branch (`git push origin feature/Feature`)
 5. Open a Pull Request
+
+##  Demo
+![image](https://github.com/user-attachments/assets/61fab6c9-3b08-466e-859a-2cedce18e936)
+![image](https://github.com/user-attachments/assets/73955fa8-d72a-4ffa-b6da-21cd5e355661)
+![image](https://github.com/user-attachments/assets/8a222af2-9902-4fff-b468-8bbd766cadf0)
+
 
 ##  Support
 
