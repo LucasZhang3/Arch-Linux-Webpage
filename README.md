@@ -75,12 +75,11 @@ The project uses a custom design system based on Arch Linux branding:
 - **Colors**: Blue (#1793d1), Cyan (#00d4aa), Purple (#8b5cf6)
 - **Typography**: Inter font family
 - **Components**: Glassmorphism panels with subtle borders
-- **Animations**: Smooth transitions and micro-interactions
 
 ##  Pages
 
 - **Home** - Landing page with animated logo
-- **Download** - Comprehensive download page with security information
+- **Download** - Download page with security information
 - **Learn More** - Additional information about Arch Linux
 - **404** - Custom not found page
 
@@ -116,5 +115,4 @@ If you have any questions or need help, please open an issue on GitHub.
 ---
 
 <div align="center">
-  Made with ❤️ for the Arch Linux community
 </div>
