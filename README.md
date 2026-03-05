@@ -2,7 +2,7 @@
 # Arch Linux Website
 
 <div align="center">
-  <img src= "public/images/arch-logo.png" alt="Arch Linux Logo" width="200" height="200">
+  <img src= "public/images/favicon.png" alt="Arch Linux Logo" width="200" height="200">
   
   **A modern, responsive website showcasing Arch Linux**
   
@@ -13,7 +13,7 @@
 </div>
 
 ##  Quick Start
-
+ 
 ### Prerequisites
 
 - Node.js 16.x or higher
@@ -103,18 +103,12 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/Feature`)
 5. Open a Pull Request
 
-##  Demo
-![image](https://github.com/user-attachments/assets/61fab6c9-3b08-466e-859a-2cedce18e936)
-![image](https://github.com/user-attachments/assets/73955fa8-d72a-4ffa-b6da-21cd5e355661)
-![image](https://github.com/user-attachments/assets/8a222af2-9902-4fff-b468-8bbd766cadf0)
+![Demo image 1](https://github.com/user-attachments/assets/ffb6fa16-b579-467a-97a8-dd8168cea45c)
+![Demo image 2](https://github.com/user-attachments/assets/1a8040b7-6925-4bbc-ac5a-063145e07a99)
+![Demo image 3](https://github.com/user-attachments/assets/6e3caaec-9583-4dd5-a7e4-669b3f334f56)
 
 
 ##  Support
 
 If you have any questions or need help, please open an issue on GitHub.
 
----
-
-<div align="center">
-  Made with ❤️ for the Arch Linux community
-</div>
